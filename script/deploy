@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /root/hello_jenkins
+cd ~/hello_jenkins
 git pull
 npm install --production
 forever restartall
