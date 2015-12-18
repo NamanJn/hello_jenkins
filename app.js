@@ -3,7 +3,7 @@ var app = express();
 
 
 app.get('/', function (req, res) {
-	  res.send('hello jenkins');
+	  res.send('hello jenkins CI');
 })
 
 
