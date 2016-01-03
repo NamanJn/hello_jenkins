@@ -25,6 +25,9 @@ app.get('/item4', function (req, res) {
 	  res.send('Hey This is item 4!!')
 })
 
+app.get('/item5', function (req, res) {
+	  res.send('Hey This is item 5!!'+ req.originalUrl)
+})
 
 app.listen(process.env.PORT || 5000);
 
